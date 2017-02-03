@@ -1,0 +1,51 @@
+body {
+	background-color: beige;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	align: center;
+}
+
+h1 {
+	text-align: center;
+	color: gray;
+    border: 10px gray;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+h2 {
+	color: black;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+img.center {
+  	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+}
+
+China {
+	color: black;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+img.center {
+  	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+}
+
+Brats {
+	color: black;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+img.center {
+  	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+}
