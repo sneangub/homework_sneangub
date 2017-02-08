@@ -1,0 +1,12 @@
+.row, .container {
+	border: 1px solid black;
+	border-style: outset;
+}
+
+.row1 {
+	border: 1px;
+}
+
+.row2 {
+	border: 1px;
+}
