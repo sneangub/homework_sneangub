@@ -1,12 +1,113 @@
-.row, .container {
+/*
+Project Name: YouTube Layout 
+Client: Sorya Neang
+Author: Sorya Neang
+Developer @You in DTLA
+*/
+
+body {
+	background-color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 10px;
+}
+
+#content {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+/*SEARCH BAR SECTION*/
+
+#search {
 	border: 1px solid black;
-	border-style: outset;
 }
 
-.row1 {
-	border: 1px;
+.thumbnail {
+	float: left;
 }
 
-.row2 {
-	border: 1px;
+.col-md-3 {
+	border: 1px solid black;
+}
+
+.col-md-9 {
+	border: 1px solid black;
+}
+
+.col-md-2 {
+	border: 1px solid black;
+}
+
+/*Menu SECTION*/
+#menu {
+	text-align: center;
+	padding: 10px;
+	border-spacing: 5px;
+	border: 30px;
+}
+
+
+/*BANNER SECTION*/
+#banner {
+	border: 1px solid black;
+	padding: 10px;
+
+}
+
+.center {
+	margin: auto;
+    width: 90%;
+    border: 3px;
+    padding: 10px;
+    background-color: #304BA4;
+    text-align: center;
+	color: white;
+	font-stretch: ultra-condensed;
+
+}
+
+p.summary {
+	color: #12EDF0;
+}
+
+/*Recommended SECTION*/
+#Recommended {
+	border: 1px solid black;
+	float: left;
+}
+
+/*ROW1 SECTION*/
+#ROW1 {
+	border: 0px solid black;
+	padding: 5px;
+	vertical-align: bottom;
+	margin: auto;
+	color: blue;
+	border-spacing: 10px;
+    border-collapse: separate;
+}
+
+p.description {
+	color: #1234F0;
+}
+
+/*ROW2 SECTION*/
+#ROW2 {
+	border: 0px solid black;
+	padding: 5px;
+	vertical-align: bottom;
+	margin: auto;
+	border-spacing: 10px;
+    border-collapse: separate;
+}
+
+/*Footer SECTION*/
+#Foot {
+	border: 1px solid black;
+	padding: 5px;
+	float: right;
+	display: inline-block;
+	color: #1234F0;
 }

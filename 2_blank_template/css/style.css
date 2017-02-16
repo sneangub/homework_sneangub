@@ -1,0 +1,33 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @You in DTLA
+*/
+
+body {
+	background-color: pink;
+	font-family: Arial;
+
+}
+
+#home {
+	min-height: 400px;
+}
+
+h1 {
+	font-size: 48px
+}
+
+h2 {
+	font-size: 32px;
+}
+
+.section {
+	background-color: yellow;
+	padding: 50px;
+}
+
+.altBG {
+	background-color: #C2FFE5;
+}
