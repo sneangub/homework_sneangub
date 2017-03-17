@@ -1,0 +1,22 @@
+body {
+    padding: 30px;
+}
+
+.title {
+	font-size: 24px;
+	display: inline;
+}
+
+.details {
+	color: gray;
+}
+
+.price {
+	display: inline;
+	font-size: 18px;
+	color: green;
+}
+
+.product {
+	background-color:  #ffe6e6;
+}
