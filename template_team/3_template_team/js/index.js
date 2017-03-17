@@ -7,7 +7,7 @@ var products    = ['Chicken', 'Beef', 'Pork', 'Shrimp', 'Veggie', 'Cheese'];
             'Perfect for vegans, or vege lovers ',
             'Cheeeeeeeeeeeeeze! YEEEEEESSS'
     ];
-    var images      = ['Chicken.jpg', 'Beef.jpg', 'Shrimp.jpg', 'Veggie.jpg', 'Pork.jpg', 'Cheese.gif']
+    var images      = ['Chicken.gif', 'Beef.jpg', 'Shrimp.jpg', 'Veggie.jpg', 'Pork.jpg', 'Cheese.gif']
     var prices      = [6.99, 7.99, 7.99, 9.99, 8.99, 8.99];
     var inventories   = [80, 15, 30, 20, 40, 80];
     var cart        = [];
@@ -19,7 +19,7 @@ $(function(){
     for(var i = 0; i < products.length; i++)
     {
         var string = "";
-        string +='<div class="col-xs-2">';
+        string +='<div class="col-xs-4">';
         string +='  <div class="product">';
         var image = images[i]|| 'default.jpg';
         string +='      <img class="img-thumbnail" src="./images/'+ image +'"/>';
