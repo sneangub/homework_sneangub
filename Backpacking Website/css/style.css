@@ -1,0 +1,151 @@
+/*
+Project Name: Final Project - Bento Backpackers
+Client: Sorya Neang
+Author: Sorya Neang
+Developer @You in DTLA
+*/
+
+body {
+	font-size: 26px;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-weight: 300;
+	color: #3c342f;
+	height: 100%;
+	letter-spacing: 3px;
+}
+
+#header {
+	min-height: 900px;
+	background: url("../images/cliff_backpack.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 10px;  
+	margin: auto;
+}
+
+#header h3 {
+	font-size: 20px;
+	padding-left: 15px;
+	margin: 20px;
+	color: #3c342f;
+	text-transform: uppercase;
+}
+
+#header h2 {
+	font-size: 70px;
+	color: #3c342f;
+	text-transform: uppercase;
+}
+
+.center {	
+	text-align: center;
+	display: table-cell;
+    display: block;
+    margin-top: 150px;
+}
+
+.navbar-header {
+	display: none;
+}
+
+.navbar-brand {
+	display: none;
+}
+
+ul {
+	font-size: 8px;
+ 	display: none;
+ 	background-color: none;
+}
+
+#home h1 {
+	padding-left: 20px;
+	font-size: 60px;
+	height: 50%;
+	margin: 30px;
+	padding: 30px;
+}
+
+.parallax-nav-item-home {
+    height: 100%;
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.parallax-nav-item-what-we-do {
+    min-height: 900px;
+	background: url("../images/backpacking4.jpg");
+  	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 10px;  
+}
+
+#what-we-do h1 {
+	font-size: 80px;
+	padding-top: 30px;
+	color: #ffffff;
+	letter-spacing: 3px;
+	min-width: 150px;
+	display: inline-block;
+	padding: 12px 17px 8px;
+	margin: 20px 0 5px;
+	text-align: center;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.button {
+	border-color: #ffffff;
+	color: #ffffff;
+	font-size: 1rem;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	min-width: 150px;
+	display: inline-block;
+	padding: 12px 17px 8px;
+	border: 3px solid;
+	margin: 20px 0 5px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: block;
+	width: 25%;
+	padding-top: 15%;
+	float: left;
+	font-weight: bold;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.block-grid {
+    display: table;
+    padding: 0;
+    margin: 0 -0.625rem;
+}
+
+#how-it-works-list {
+	color: #ffffff;
+	font-size: 15px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	min-width: 150px;
+	display: inline-block;
+	padding: 12px 17px 8px;
+	margin: 20px 0 5px;
+	text-align: center;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+
+
+
